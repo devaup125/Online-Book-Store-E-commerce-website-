@@ -1,0 +1,149 @@
+/* Registration Page Specific Styles */
+.registration-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h2 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"] {
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.gender-group {
+    display: flex;
+    gap: 30px;
+    padding: 10px 0;
+}
+
+.gender-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.language-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.language-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.form-group textarea {
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    height: 120px;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.form-group textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.submit-btn {
+    background: #3498db;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: #2980b9;
+}
+
+input[type="checkbox"], 
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #3498db;
+    cursor: pointer;
+}
+ 
+            
+@media (max-width: 768px) {
+    .registration-container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .gender-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .language-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .submit-btn {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+/* 
+.form-group input:invalid:focus {
+    border-color: #e74c3c;
+}
+
+.form-group input:valid:focus {
+    border-color: #2ecc71; 
+}*/

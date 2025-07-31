@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog - BookStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">BookStore</div>
+        <div class="search_bar">
+            <input type="text" placeholder="Search books...">
+            <button>Search</button>
+        </div>
+        <div class="cart_login">
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Our Book Collection</h1>
+        <p>Discover your next favorite book</p>
+    </header>
+
+    <main class="catalog-container">
+        <div class="filters">
+            <h3>Filter By</h3>
+            <div class="filter-group">
+                <h4>Price Range</h4>
+                <input type="range" min="0" max="100" value="50">
+            </div>
+            <div class="filter-group">
+                <h4>Publishers</h4>
+                <select>
+                    <option>All Publishers</option>
+                    <option>Penguin Books</option>
+                    <option>Harper Collins</option>
+                    <option>Random House</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="book-grid">
+            <div class="book-card">
+                <img src="R!.jpg" alt="Book Cover">
+                <h3>Introduction to Algorithm</h3>
+                <p class="author">By THOMAS COREMAN</p>
+                <p class="publisher">Logical terminolgy</p>
+                <p class="price">Rs 1699</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+
+            <div class="book-card">
+                <img src="R2.jpg" alt="Book Cover">
+                <h3>Harry Potter</h3>
+                <p class="author">By J.K Rowling</p>
+                <p class="publisher">Adventure</p>
+                <p class="price">Rs 199</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+           
+            <div class="book-card">
+                <img src="R3.jpg" alt="Book Cover">
+                <h3>Basic Computer Engineering</h3>
+                <p class="author">By Sanjay Silakari, Rajesh K. Shukla</p>
+                <p class="publisher">IIT DELHI</p>
+                <p class="price">Rs 299</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your trusted source for books since 2023</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@bookstore.com</p>
+                <p>Phone: (+91) 9044-189390</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BookStore. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

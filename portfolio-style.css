@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header .header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .header-content p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+section {
+    padding: 50px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #2d3e50;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about-me {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.skills {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills .skill {
+    background-color: #2d3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.experience, .projects, .contact {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item, .project-item {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #2d3e50;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-item a {
+    text-decoration: none;
+    color: #ff5733;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.project-item a:hover {
+    color: #e04e2c;
+}
+
+.contact p a {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+.contact p a:hover {
+    color: #e04e2c;
+}
+
+footer {
+    text-align: center;
+    background-color: #2d3e50;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}

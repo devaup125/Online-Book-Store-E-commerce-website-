@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - BookStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">BookStore</div>
+        <div class="cart_login">
+            <a href="index.html">Home</a>
+        </div>
+    </nav>
+
+    <div class="cart-container">
+        <h2>Your Shopping Cart</h2>
+        
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="R!.jpg" alt="Book Cover">
+                <div class="item-details">
+                    <h3>Introduction to Algorithm</h3>
+                    <p class="author">By THOMAS COREMAN</p>
+                    <p class="price">Rs. 1699</p>
+                </div>
+                <div class="quantity-controls">
+                    <button class="quantity-btn">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="quantity-btn">+</button>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <div class="cart-item">
+                <img src="R2.jpg" alt="Book Cover">
+                <div class="item-details">
+                    <h3>Harry Potter</h3>
+                    <p class="author">By J.K Rowling</p>
+                    <p class="price">Rs 199</p>
+                </div>
+                <div class="quantity-controls">
+                    <button class="quantity-btn">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="quantity-btn">+</button>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h3>Order Summary</h3>
+            <div class="summary-item">
+                <span>Subtotal</span>
+                <span>Rs.1898</span>
+            </div>
+            <div class="summary-item">
+                <span>Shipping</span>
+                <span>Rs 70</span>
+            </div>
+            <div class="summary-item total">
+                <span>Total</span>
+                <span>Rs 1968</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your trusted source for books since 2023</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@bookstore.com</p>
+                <p>Phone: (+91) 9044-189390</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BookStore. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
